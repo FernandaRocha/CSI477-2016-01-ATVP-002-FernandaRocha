@@ -1,0 +1,101 @@
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+.navbar {
+  margin-bottom: 50px;
+  border-radius: 0;
+}
+
+/* Remove the jumbotron's default bottom margin */
+ .jumbotron {
+  margin-bottom: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.topo1 {
+  background-image: url("../imagens/topo.jpg");
+  background-repeat: no-repeat;
+  height: 400px;
+-moz-background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+background-size: 100% 100%;
+}
+
+body{
+    background-color: #EEE;
+}
+
+.text{
+  height: 35px;
+  width: 500px;
+  border: 10px;
+  border-radius: 15px;
+  background-color: #EEE;
+}
+
+#cad_table{
+  height: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  margin-top: 100px;
+}
+
+#btnCad{
+  height: 35px;
+  width: 100px;
+  background-color: #EFEFEF;
+  border-radius: 4px;
+  border: 1px solid #CCC;
+
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+
+th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+h3{
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.3));
+}
+
+h4.dif{
+  background: linear-gradient(to bottom right,tan,rosybrown,peru);
+}
+
+h4{
+  color:blue;
+  font-family: helvetica;
+  font-size: 16pt;
+}
+
+h4.n1{
+  color:blue;
+  font-family: helvetica;
+  font-size: 16pt;
+}
+footer {
+	background-color: 	#687;
+	background-image: 	linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+	color: 				#FFF;
+	padding: 			10px 20px;
+	margin-top: 		10px;
+	clear: 				both;
+	font-weight: 		bold;
+	text-align: 		center;
+}
+
+#footer-redes{
+	float: 				left;
+	margin: 			0px 120px 25px 120px;
+	text-align: 		left;
+}
+
+#footer-redes h1{
+	color: 				#D2B48C;
+}
